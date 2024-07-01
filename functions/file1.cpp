@@ -16,7 +16,7 @@ class Complex {
     double image;
 
     public:
-        Complex(double real = 0., double image = 0.); // constructor
+        Complex(double real = 0.0, double image = 0.0); // constructor
         Complex operator +(const Complex &)const;// operator 
         
         void display() {
